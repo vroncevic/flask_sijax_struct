@@ -209,6 +209,7 @@ app_server/
 
 * [flask_func_struct_sijax.readthedocs.io](https://flask_func_struct_sijax.readthedocs.io/en/latest/)
 * [www.python.org](https://www.python.org/)
+* [flask-sijax](https://pythonhosted.org/Flask-Sijax/)
 
 ### Copyright and Licence
 
