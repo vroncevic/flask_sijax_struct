@@ -1,13 +1,13 @@
 name: Python package flask_func_struct_sijax
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths:
       - 'app_server/**'
       - 'manage_commands/**'
       - 'manage.py'
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
     paths:
       - 'app_server/**'
       - 'manage_commands/**'
