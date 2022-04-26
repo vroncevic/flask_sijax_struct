@@ -10,7 +10,7 @@ The README is used to introduce the modules and provide instructions on
 how to install the modules, any machine dependencies it may have and any
 other information that should be provided before the modules are installed.
 
-[![flask_func_struct_sijax py checker](https://github.com/vroncevic/flask_func_struct_sijax/actions/workflows/flask_func_struct_sijax_py_checker.yml/badge.svg)](https://github.com/vroncevic/flask_func_struct_sijax/actions/workflows/flask_func_struct_sijax_py_checker.yml) [![flask_func_struct_sijax python package](https://github.com/vroncevic/flask_func_struct_sijax/actions/workflows/flask_func_struct_sijax_package.yml/badge.svg)](https://github.com/vroncevic/flask_func_struct_sijax/actions/workflows/flask_func_struct_sijax_package.yml) [![GitHub issues open](https://img.shields.io/github/issues/vroncevic/flask_func_struct_sijax.svg)](https://github.com/vroncevic/flask_func_struct_sijax/issues) [![GitHub contributors](https://img.shields.io/github/contributors/vroncevic/flask_func_struct_sijax.svg)](https://github.com/vroncevic/flask_func_struct_sijax/graphs/contributors)
+[![flask_func_struct_sijax python checker](https://img.shields.io/github/workflow/status/vroncevic/flask_func_struct_sijax/flask_func_struct_sijax_python_checker?style=flat&label=flask_func_struct_sijax%20python%20checker)](https://github.com/vroncevic/flask_func_struct_sijax/actions/workflows/flask_func_struct_sijax_python_checker.yml) [![flask_func_struct_sijax package checker](https://img.shields.io/github/workflow/status/vroncevic/flask_func_struct_sijax/flask_func_struct_sijax_package_checker?style=flat&label=flask_func_struct_sijax%20package%20checker)](https://github.com/vroncevic/flask_func_struct_sijax/actions/workflows/flask_func_struct_sijax_package_checker.yml) [![GitHub issues open](https://img.shields.io/github/issues/vroncevic/flask_func_struct_sijax.svg)](https://github.com/vroncevic/flask_func_struct_sijax/issues) [![GitHub contributors](https://img.shields.io/github/contributors/vroncevic/flask_func_struct_sijax.svg)](https://github.com/vroncevic/flask_func_struct_sijax/graphs/contributors)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -27,9 +27,13 @@ other information that should be provided before the modules are installed.
 
 ### Installation
 
-Navigate to **[release page](https://github.com/vroncevic/flask_func_struct_sijax/releases)** download and extract release archive.
+Used next development environment
 
-To install modules type the following
+![debian linux os](https://raw.githubusercontent.com/vroncevic/flask_func_struct_sijax/dev/docs/debtux.png)
+
+Navigate to **[release page](https://github.com/vroncevic/flask_func_struct_sijax/releases)** download and extract release archive 📦.
+
+To install **flask_func_struct_sijax** 📦 type the following
 
 ```bash
 tar xvzf flask_func_struct_sijax-x.y.z.tar.gz
@@ -42,7 +46,7 @@ cp -R /app_server/ /Flask/
 
 You can use Dockerfile to create image/container 🚢.
 
-[![flask_func_struct_sijax docker checker](https://github.com/vroncevic/flask_func_struct_sijax/actions/workflows/flask_func_struct_sijax_docker_checker.yml/badge.svg)](https://github.com/vroncevic/flask_func_struct_sijax/actions/workflows/flask_func_struct_sijax_docker_checker.yml)
+[![flask_func_struct_sijax docker checker](https://img.shields.io/github/workflow/status/vroncevic/flask_func_struct_sijax/flask_func_struct_sijax_docker_checker?style=flat&label=flask_func_struct_sijax%20docker%20checker)](https://github.com/vroncevic/flask_func_struct_sijax/actions/workflows/flask_func_struct_sijax_docker_checker.yml)
 
 ### Usage
 
@@ -203,7 +207,7 @@ app_server/
 
 ### Docs
 
-[![Documentation Status](https://readthedocs.org/projects/flask-func-struct-sijax/badge/?version=latest)](https://flask-func-struct-sijax.readthedocs.io/en/latest/?badge=latest) [![pages-build-deployment](https://github.com/vroncevic/flask_func_struct_sijax/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/vroncevic/flask_func_struct_sijax/actions/workflows/pages/pages-build-deployment)
+[![Documentation Status](https://readthedocs.org/projects/flask-func-struct-sijax/badge/?version=latest)](https://flask-func-struct-sijax.readthedocs.io/en/latest/?badge=latest)
 
 📗 More documentation and info at
 
