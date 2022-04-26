@@ -1,14 +1,14 @@
-name: flask_func_struct_sijax triage
+name: flask_func_struct_sijax_triage
 on:
   issues:
     types: [opened]
 jobs:
   commentOnNewIssues:
-    name: flask_func_struct_sijax triage
+    name: flask_func_struct_sijax_triage
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: flask_func_struct_sijax triage
+      - name: flask_func_struct_sijax_triage
         uses: actions/github@v1.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

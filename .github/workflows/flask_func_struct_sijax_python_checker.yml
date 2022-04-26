@@ -1,4 +1,4 @@
-name: flask_func_struct_sijax py checker
+name: flask_func_struct_sijax_python_checker
 on:
   push:
     branches: [ main ]
